@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="fav.png" />
+    <title>suraj gupta</title>
+    <link rel="stylesheet" href="gallery.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abril+Fatface|Lobster+Two|Mitr|Monoton|Pacifico|Sen&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body class="hid">
+    <div id="loader">
+      <div class="lds-facebook">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+    </div>
+
+    <span id="container">
+      <main>
+        <span class="about">
+          <h1><st>S</st>uraj gupta</h1>
+          <h4>Web Dev. | Designer</h4>
+          <span class="fa fa-phone"><h5>9616*****1</h5></span>
+
+          <span class="fa fa-envelope"><h5>surajgupta3722@gmail.com</h5></span>
+
+          <span class="fa fa-linkedin"><h5>suraj3722</h5></span>
+        </span>
+        <div class="menu">
+          <div class="men aboutme" onclick="aboutopen()">
+            <span class="fa m fa-address-card"></span><e>About</e>
+          </div>
+          <div class="men gallery" onclick="galleryopen()">
+            <span class="fa m fa-image"></span><e>gallery</e>
+          </div>
+          <div class="men projects">
+            <a href="https://github.com/suraj3722"
+              ><span class="fa m fa-code"></span><e>projects</e></a
+            >
+          </div>
+          <div class="men writing" onclick="writeopen()">
+            <span class="fa m  fa-pencil-square-o"></span><e>Creation</e>
+          </div>
+        </div>
+        <div class="dp" onclick="bgm()"></div>
+        <audio id="bgm">
+          <source src="bgm.mp3" type="audio/mpeg" />
+        </audio>
+      </main>
+
+      <detail>
+        <toleft>
+          <h1>Education</h1>
+          <h4>Bsc,jncU</h4>
+          <h5>2019-2022</h5>
+          <h4>Higher Secondary,up board</h4>
+          <h5>2017-2019</h5>
+          <h4>High School,up board</h4>
+          <h5>2016</h5>
+          <h4>youtube university</h4>
+          <h5>2019</h5>
+
+          <h1>Key Skills</h1>
+          <h4 class="sk">Youtuber(4 channels )</h4>
+          <span class="progress ui "></span>
+
+          <h4 class="sk">Graphic Design</h4>
+          <span class="progress graphic"></span>
+          <h4 class="sk">Python</h4>
+          <span class="progress python"></span>
+          <h4 class="sk">C language</h4>
+          <span class="progress cpp"></span>
+          <h4 class="sk">Front end Dev</h4>
+          <span class="progress fs"></span>
+
+          <h4 class="sk">Digitlal marketing </h4>
+          <span class="progress ptest"></span>
+        </toleft>
+        <toright>
+          <h1>Projects</h1>
+          <h4 >My portfolio website</h4>
+          <p>
+            This is my second portfolio website ,social media like platform where people can signin and
+            hire workers for various household services.
+          </p>
+         <a href="https://suraj3722.github.io/surajgupta.github.io/"><img height="100" width="100" src="port.jpg" alt="my portfolio"></a>
+          <h5>Click on image...</h5>
+           <h1>Web Developer Job Responsibilities:</h1>
+          <p>  The role is responsible for designing, coding and modifying websites, from layout to function and according to a client's specifications. Strive to create visually appealing sites that feature user-friendly design and clear navigation.</p>
+          <h4>.................</h4>
+          <p>
+            update later.....................
+          </p>
+
+          <h1>xxxxxxxxx</h1>
+          <h4>xxxxxxxxx</h4>
+          <h5>x.x.x.x.x.x.x</h5>
+          <h4>.........</h4>
+          <h5>........</h5>
+
+          <h1>Hobbies</h1>
+          <hobby>
+            <div class="hobby write "><i class="fa fa-pencil"></i></div>
+
+            <div class="hobby read  "><i class=" fa fa-book "></i></div>
+
+            <div class="hobby movies "><i class=" fa  fa-film"></i></div>
+            <div class="hobby coding "><i class="fa   fa-laptop "></i></div>
+          </hobby>
+        </toright>
+      </detail>
+    </span>
+    <span id="writing" class=""
+      ><close onclick="writeclose()">X</close>
+      <a href="https://linktr.ee/Mactech">All links here</a>
+      <a href="#">........</a>
+    </span>
+    <span id="about" class="">
+      <close onclick="aboutclose()">X</close>
+      <h1>About</h1>
+      <p>
+        I am Suraj gupta. I am pursuing Bachelor of science under
+        J.N.C.U.  I am in following the path to be a creative
+        mind. 
+        <span>+ This portfolio is fully coded by me.</span>
+        <span>+ I am Professional BGMI player and i am youtuber with 4 channels.</span>
+        <span>+ My favorite web series is Money heist</span>
+        <span>+ quotes - Success is going from failure to failure without loss of enthusiasm</span>
+       
+        
+      </p>
+    </span>
+    <span id="gallery">
+      <close onclick="galleryclose()">X</close>
+      <div class="callbacks_container">
+        <ul class="rslides" id="slider4">
+          <!-- <li>
+            <img src="logo1.jpg" alt="" />
+          </li> -->
+          <li>
+            <img src="img/1.jpg" alt="" />
+          </li>
+          <li>
+            <img src="img/3.jpg" alt="" />
+          </li>
+          <li>
+            <img src="img/4.jpg" alt="" />
+          </li>
+          <li>
+            <img src="img/5.jpg" alt="" />
+          </li>
+          <li>
+            <!-- <img src="img/6.jpg" alt="" />
+          </li>
+          <li>
+            <img src="img/7.jpg" alt="" />
+          </li>
+          <li>
+            <img src="img/8.jpg" alt="" />
+          </li>
+          <li>
+            <img src="img/9.jpg" alt="" />
+          </li>
+          <li>
+            <img src="img/10.jpg" alt="" />
+          </li>
+          <li>
+            <img src="img/11.jpg" alt="" />
+          </li>
+          <li>
+            <img src="img/12.jpg" alt="" />
+          </li>
+          <li>
+            <img src="img/13.jpg" alt="" />
+          </li>
+          <li>
+            <img src="img/14.jpg" alt="" />
+          </li>
+          <li>
+            <img src="img/15.jpg" alt="" />
+          </li>
+          <li>
+            <img src="img/16.jpg" alt="" />
+          </li>
+          <li>
+            <img src="img/17.jpg" alt="" />
+          </li>
+          <li>
+            <img src="img/18.jpg" alt="" />
+          </li>
+          <li>
+            <img src="img/19.jpg" alt="" />
+          </li>
+          <li>
+            <img src="img/20.jpg" alt="" />
+          </li>
+          <li>
+            <img src="img/21.jpg" alt="" />
+          </li>
+          <li>
+            <img src="img/22.jpg" alt="" />
+          </li> -->
+        </ul>
+      </div>
+    </span>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="responsiveslides.js"></script>
+    <script>
+      // You can also use "$(window).load(function() {"
+      $(function() {
+        $("#slider4").responsiveSlides({
+          auto: false,
+          pager: false,
+          nav: true,
+          speed: 500,
+          namespace: "callbacks",
+          before: function() {
+            $(".events").append("<li>before event fired.</li>");
+          },
+          after: function() {
+            $(".events").append("<li>after event fired.</li>");
+          }
+        });
+      });
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
